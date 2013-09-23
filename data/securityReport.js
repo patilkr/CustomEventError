@@ -67,8 +67,9 @@ function changeReportLogs(evt, curTabId) {
 } // end of changeReportLogs() function
 
 function downloadSecurityReport() {
+	var mytest = 1;
 	// var event = new CustomEvent("downloadReport");
 	var evt = document.createEvent('CustomEvent');
-	evt.initCustomEvent("downloadReport", true, true, undefined);
+	evt.initCustomEvent("downloadReport", true, true, mytest);
 	document.documentElement.dispatchEvent(evt);
 } // end of downloadSecurityReport() function
