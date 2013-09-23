@@ -21,25 +21,6 @@ function changeDirectiveClass(id, flag) {
 			else
 				document.getElementById("insec-passwd").className = "current";
 			break;
-		case 3:
-			if (!flag)
-				document.getElementById("mixed-content").className = "";
-			else
-				document.getElementById("mixed-content").className = "current";
-			break;
-		case 4:
-			if (!flag)
-				document.getElementById("ssl").className = "";
-			else
-				document.getElementById("ssl").className = "current";
-			break;
-		case 5:
-			if (!flag)
-				document.getElementById("sec-headers").className = "";
-			else
-				document.getElementById("sec-headers").className = "current";
-			break;
-
 	}
 } // end of changeDirectiveClass() function
 
